@@ -21,10 +21,16 @@ body{
 
 /* header */
 header{
+    position: sticky;
+    padding-top: 1%;
+    border-end-end-radius: 2rem;
+    border-end-start-radius: 2rem;
+    top: 0%;
+    background-color: #151515b7;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 42px auto 6rem auto; 
+    margin: 1rem auto 4rem auto; 
     max-width: 1400px; 
 }
 .header-logo{
