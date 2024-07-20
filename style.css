@@ -1,0 +1,80 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #151515;
+}
+
+        /* header */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 42px auto 7rem auto; 
+    max-width: 1400px; 
+}
+.header-logo{
+    color: #FFFFFFE5;
+    align-self: center;
+    font-size: 26px;
+}
+.header-links{
+    display: flex;
+    gap: 3rem;
+}
+.header-link{
+    font-size: 24px;
+    color: #fff;
+}
+.header-btn{
+    cursor: pointer;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+            /* main */
+.main{
+    background-color: #1A1A1A;
+}
+.first-section, .second-section, .third-section{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 8rem auto;
+    max-width: 1100px;
+    gap: 6rem;
+   
+}
+.first-section-img, .second-section-img, .third-section-img{
+    height: 600px;
+    margin-top: -2rem;
+}
+.first-section div, .second-section div, .third-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+.first-section h1, .second-section h1, .third-section h1{
+    color: #fff;
+    font-size: 50px;
+    
+    
+}
+.first-section p, .second-section p, .third-section p{
+    color: #fff;
+    font-size: 1.2rem;
+    max-width: 40ch;
+}
+
+
